@@ -6,7 +6,7 @@ alertmanagerFiles:
     receivers:
     - name: 'gmail-notifications'
       email_configs:
-      - to: example@gmail.com 
+      - to: example@gmail.com
         from: example@gmail.com # Update your from mail id here
         smarthost: smtp.gmail.com:587
         auth_username: example@gmail.com # Update your from mail id here
